@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shivsayali/Shivaram/repos/vsomeip/demo/client-example.cpp
+iomanip
+-
+iostream
+-
+vsomeip/vsomeip.hpp
+-
+
