@@ -24,4 +24,4 @@ target_link_libraries(service-example vsomeip3 pthread)
 
 add_executable (client-example ../client-example.cpp)
 
-target_link_libraries(client-example vsomeip3 ${Boost_LIBRARIES})
+target_link_libraries(client-example vsomeip3 ${Boost_LIBRARIES} pthread)
